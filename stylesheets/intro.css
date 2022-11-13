@@ -1,0 +1,50 @@
+.intro{
+    background-color: #005248 !important;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px !important;
+    background-image: url('../images/Animated\ Shape.svg');
+    background-size: 100% 100%;
+}
+@font-face {
+    font-family: Dolgan;
+    src: url(./Dolgan.otf);
+  }
+.dev-first-name {
+    font-size: 100px;
+    font-family: Dolgan !important;
+    color: rgb(219,14,14);
+}
+.dev-last-name {
+    font-size: 100px;
+    font-family: Dolgan !important;
+    color: rgb(230,230,24)
+}
+.intro p {
+    color: white;
+}
+.get-started {
+    background-color: #068378;
+    padding: 10px 25px;
+    border: none;
+    color: white;
+}
+.hire-me {
+    background-color: white;
+    padding: 10px 25px;
+    border: none;
+    color: black; 
+}
+
+@media screen and (max-width: 600px){
+    .dev-first-name {
+        font-size: 70px;
+        font-family: Dolgan !important;
+        color: rgb(219,14,14);
+    }
+    .dev-last-name {
+        font-size: 70px;
+        font-family: Dolgan !important;
+        color: rgb(230,230,24)
+    }
+}
